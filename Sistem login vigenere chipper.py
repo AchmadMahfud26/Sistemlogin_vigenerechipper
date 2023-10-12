@@ -1,13 +1,3 @@
-# *Sistem login vigenere chipper*
-```sh
-Nama    : Achmad Mahfud
-Nim     : 312110520
-Kelas   : TI.21.C5
-
-```
-## kode program 
-
-```sh
 def vigenere_cipher(text, key, decrypt=False):
     result = []
     key_length = len(key)
@@ -47,9 +37,3 @@ if login(username, password, stored_username, stored_password):
     print("Login berhasil!")
 else:
     print("Login gagal.")
-```
-
-
-## Hasil eksekusi
-
-![.](gambar/1.png)
